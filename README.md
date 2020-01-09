@@ -33,3 +33,45 @@
         </div>
     </body>
 </html>
+---------------------CSS------------------------------------
+
+#button input
+{
+    width: 75px;
+    height: 70px;
+    font-size: 1.5em;
+    border-radius: 20px;
+    border: 2px solid #827c7c;
+    margin-top: 3px;
+    background-color: #88d1f1;
+    transition-property: background-color, color; 
+    transition-duration: 500ms;
+}
+
+#button input:hover
+{
+   background-color: #8a2be2;
+   color: #ffffff;
+}
+
+#button input:last-child
+{
+    width: 200px;
+}
+#calculator
+{
+    text-align: center;
+    margin-top: 275px;
+}
+.result
+{
+    width: 222px;
+    height: 2em;
+    border: 2px solid #827c7c;
+    border-radius: 15px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: #efefef;
+}
+
+
