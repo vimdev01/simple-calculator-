@@ -22,7 +22,7 @@
                     <input type="button" value="9" onclick="document.calculator.ans.value+='9'"/><br>
                     <input type="button" value="0" onclick="document.calculator.ans.value+='0'"/>
                     <input type="button" value="." onclick="document.calculator.ans.value+='.'"/>
-                    <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)"/><br>
+                    <input type="button" value="="onclick="document.calculator.ans.value=eval(document.calculator.ans.value)"/><br>
                     <input type="button" value="-" onclick="document.calculator.ans.value+='-'"/>
                     <input type="button" value="+" onclick="document.calculator.ans.value+='+'"/>
                     <input type="button" value="/" onclick="document.calculator.ans.value+='/'"/>
